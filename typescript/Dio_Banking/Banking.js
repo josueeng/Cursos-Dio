@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Account_1 = require("./Classes/Account");
+var Admin_1 = require("./Classes/Admin");
+var Company_1 = require("./Classes/Company");
+var PeopleAccount_1 = require("./Classes/PeopleAccount");
+var peopleAccount = new PeopleAccount_1.PeopleAccount('pessoa conta', 1, 123456789);
+console.log(peopleAccount);
+peopleAccount.deposit();
+var adm = new Admin_1.Admin('admin conta', 1);
+console.log(adm);
+var user = new Account_1.Account('Dio conta', 2);
+console.log(user);
+var Company = new Company_1.CompanyAccount('Empresa conta', 3, 123456789);
+console.log(Company);
