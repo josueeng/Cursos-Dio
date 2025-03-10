@@ -1,4 +1,4 @@
-# Desafio de projeto do Felipão: Mario Kart.JS
+# Desafio de projeto: Mario Kart.JS
 
 <table>
     <tr>
