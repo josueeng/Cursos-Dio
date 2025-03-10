@@ -64,7 +64,7 @@ async function Playrace(Character1, Character2) {
             Character2.Pontos++;
             console.log(`🏆 ${Character2.Nome} venceu a rodada`);
         } else {
-            console.log(`🤝 Empate!`);
+            console.log(`🤝 Empate! `);
         }
     }
  }
