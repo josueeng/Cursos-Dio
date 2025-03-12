@@ -19,7 +19,7 @@ Este repositório contem uma coleção de cursos que estou realizando como parte
 1. **Curso 1**: javascript
 2. **Curso 2**: Typscript
 3. **Curso 3**: react native
-4. **...**: Mais cursos serão adicionados conforme form realizados.
+4. **...**: Mais cursos serão adicionados conforme forem realizados.
 
 
 
