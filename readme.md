@@ -12,7 +12,7 @@ Bem-vindo ao repositório onde irei compartilhar todos os cursos que estou fazen
 
 ## Sobre
 
-Este repositório contem uma coleção de cursos que estou realizando como parte dos programas oferecidos pela DIO. Cada curso está organizado em seu próprio diretório e inclui uma breve descrição, materiais de estudo, e qualquer outra informação relevante.
+Este repositório contem uma coleção de cursos que estou realizando como parte dos programas oferecidos pela DIO. Cada curso está organizado em seu próprio diretório e inclui uma breve descrição, materiais de estudo, e qualquer outra informação relevant.
 
 ## Cursos
 
