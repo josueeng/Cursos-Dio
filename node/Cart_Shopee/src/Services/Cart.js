@@ -1,24 +1,34 @@
 // casos de usos
 
 //-> Adicionar item ao carrinho
-
-async function addItem(name, quantidade, preco) {
-    console.log(`o item ${name} com a quantidade de ${quantidade} de valor unitario ${preco}foi adicionado ao carrinho com sucesso! c`);
+async function addItem(userCart, item) {
+    userCart.push(item);
 }
 
-//-> Remover item do carrinho
-async function removeItem(name) {
-    console.log(`o item ${name} foi removido do carrinho com sucesso!`);
+//-> Calcular total dos itens
+async function calculateTotal(userCart) {
+    let total = 0;
+    userCart.forEach(item => {
+        total += item.subtotal();
+    });
+    console.log(total);
+    return total;
 }
 
+//-> deletar item do carrinho
+async function deleteItem(userCart, name) {
+    const index = userCart.findIndex((item) => item.name === name);
+    if (index !== -1) {
+        userCart.splice(index, 1);
+    }
+}
+
+//-> Remover 1 item do carrinho
+async function remove(userCart, index) {
+    if (index >= 0 && index < userCart.length) {
+        userCart.splice(index, 1);
+    }
+}
 
 //-> Calcular total do carrinho
-
-//-> Limpar carrinho
-export {
-    addItem,
-    removeItem,
-    
-};
-
-
+export { addItem, calculateTotal, deleteItem, remove };
