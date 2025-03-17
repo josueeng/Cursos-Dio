@@ -32,6 +32,6 @@ Este repositório contem uma coleção de cursos que estou realizando como parte
 
 - **Nome**: Josue Lopes
 - **Email**: Josue.programador@hotmail.com
-- **LinkedIn**: [LinkedIn](https://www.linkedin.com/in/josue-gomes-lopes-a5481728b/)
+- **LinkedIn**: [LinkedIn](www.linkedin.com/in/devjosue)
 
 ---
