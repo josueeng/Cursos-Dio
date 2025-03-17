@@ -20,7 +20,7 @@ Este repositório contem uma coleção de cursos que estou realizando como parte
 2. **Curso 2**: Typscript
 3. **Curso 3**: Node
 4. **Curso 4**: React Native
-5. **Curso 5**: Java
+5. **Curso 5**: Java.
 
 
 
