@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "npm run dist && node src/index.js"
+    "start": "npm run dist && node srcindex.js"
   },
   "author": "",
   "license": "ISC",
