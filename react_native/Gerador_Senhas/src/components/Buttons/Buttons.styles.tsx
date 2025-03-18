@@ -14,7 +14,8 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 32,
     borderRadius: 4,
     elevation: 1,
-    
+    width: 250,
+    textAlign: 'center', // Added to align text to center
   },
   ButtonsContainer: {
     flexDirection: 'column',
