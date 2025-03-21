@@ -1,9 +1,10 @@
 {
   "name": "typescript",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "start": "npm run dist && node srcindex.js"
+    "dist": "npx tsc ./src/index.ts  ",
+    "start": "npm run dist && node ./src/index.js"
   },
   "author": "",
   "license": "ISC",
