@@ -1,2 +1,5 @@
 Deposito: 12.0
 Saque: 12.0
+Saque: 7.0
+Saque: 9.0
+Saque: 3.0

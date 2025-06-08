@@ -8,9 +8,20 @@ if operacao == '1':
 elif operacao == '2':
     valor = float(input('digite o valor a ser sacado: '))   
     if valor > 0:
-        with open('extrato.txt', 'a') as extrato:
-            extrato.write(f'Saque: {valor}\n')
-        print(f'Saque de {valor} realizado com sucesso!')
+        saldo = 0
+        try:
+            with open('extrato.txt', 'r') as extrato:
+                conteudo = extrato.read()
+                saldo  = sum(float(line.split(':')[1]) for line in conteudo.splitlines() if 'Deposito' in line) - \
+                        sum(float(line.split(':')[1]) for line in conteudo.splitlines() if 'Saque' in line)
+        except FileNotFoundError:
+            saldo = 0
+        if saldo < valor:
+            print('Saldo insuficiente para realizar o saque.')
+        else:
+            with open('extrato.txt', 'a') as extrato:
+                extrato.write(f'Saque: {valor}\n')
+            print(f'Saque de {valor} realizado com sucesso!')
 elif operacao == '3':
     try:
         with open('extrato.txt', 'r') as extrato:
@@ -21,6 +32,7 @@ elif operacao == '3':
                 saldo  = sum(float(line.split(':')[1]) for line in conteudo.splitlines() if 'Deposito' in line) - \
                         sum(float(line.split(':')[1]) for line in conteudo.splitlines() if 'Saque' in line)
                 print(f'Saldo atual: {saldo}')
+                
             else:
                 print('Extrato vazio.')
     except FileNotFoundError:
