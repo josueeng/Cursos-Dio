@@ -4,6 +4,7 @@
   <h1 align="center"><strong>NODE BOILERPLATE - EDIÇÃO AZUL</strong></h1>
   <p align="center">
     Não comece um novo projeto Node do zero!<br> Use este simples boilerplate <b>Nodejs</b> com <b>Typescript</b> pré-configurado de uma maneira moderna
+    
   </p>
 
 </div>
