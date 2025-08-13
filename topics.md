@@ -1,0 +1,7 @@
+- estudos
+- javascript
+- typescript
+- html
+- css
+- python
+- cursos
